@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <p>Student Information</p>
+    <input type="text" id="searchInput" placeholder="Search...">
+    <table id="myTable">
+        <thead>
+            <tr>
+                <th onclick="sortTable(0)">Name</th>
+                <th onclick="sortTable(1)">Email</th>
+                <th onclick="sortTable(2)">Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>pooja</td>
+                <td>pj@gmail.com</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>rutruja</td>
+                <td>rutu@gmail.com</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>Adi</td>
+                <td>adi@gmail.com</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td>sk</td>
+                <td>sk@gmail.com</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>nikku</td>
+                <td>nk12@gmail.com</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>tejashree kale</td>
+                <td>teju@gmail.com</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>priti ingale</td>
+                <td>pt@gmail.com</td>
+                <td>25</td>
+            </tr>
+            <!-- Additional rows here -->
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+    </div>
+</body>
+</html>
+
+
